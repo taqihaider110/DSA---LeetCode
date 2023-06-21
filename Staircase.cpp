@@ -1,4 +1,4 @@
-// STAIRCASE SOLUTION OF HACKERRANK
+//StairCase in C++ - Hacker Rank Solution
 //     #
 //    ##
 //   ###
