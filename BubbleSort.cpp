@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 void bubblesort(int arr[],int size){
     for(int i=0;i<size;i++){
@@ -21,11 +22,12 @@ int main(){
         cout<<"Enter the element of index " << i<< " of array: "<<endl;
         cin>>arr[i];
     }
-    cout<<"Original Array:-"<<endl;
-    for(int i=0;i<s;i++){
-        cout<<arr[i]<<" ";
-    }
-    bubblesort(arr,s);
+    sort(arr,arr+s);//Build in function for sort
+    // cout<<"Original Array:-"<<endl;
+    // for(int i=0;i<s;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // bubblesort(arr,s);
     cout<<"\nAfter Sorting:-"<<endl;
     for(int i=0;i<s;i++){
         cout<<arr[i]<<" ";
