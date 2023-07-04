@@ -3,12 +3,16 @@
 using namespace std;
 //Non-repeating character in a string
 string non_repeatingcharacter(string str){
-    string temp;
     int signed len=str.length();
+    string temp;
     for(int i=0;i<len;i++){
-        for(int j=0;j<len-i-1;j++){
-            if(str[i]!=str[j]){
-                temp=str[j];
+        for(int j=0;j<len;j++){
+            if(str[i]==str[j]){
+                
+                break;    
+            }
+            else{
+                temp=str[i];
             }
         }
     }
