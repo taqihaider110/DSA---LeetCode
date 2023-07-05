@@ -7,6 +7,7 @@ int Arr(int arr1[],int size1,int arr2[],int size2){
     int samearr[100],differentarr[100];
     int samecount=0;
     int differentcount=0;
+    // Check for same elements and store in samearr
     for(int i=0;i<size1;i++){
         bool found=false;
         for(int j=0;j<size2;j++){
@@ -19,8 +20,32 @@ int Arr(int arr1[],int size1,int arr2[],int size2){
             samearr[samecount]=arr1[i];
             samecount++;      
         }
-        else{
-            differentarr[differentcount]=arr1[i];
+    }
+    // Check for different elements in arr1 and store in differentarr
+    for (int i = 0; i < size1; i++) {
+        bool found = false;
+        for (int j = 0; j < size2; j++) {
+            if (arr1[i] == arr2[j]) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            differentarr[differentcount] = arr1[i];
+            differentcount++;
+        }
+    }
+    // Check for different elements in arr2 and store in differentarr
+    for (int i = 0; i < size2; i++) {
+        bool found = false;
+        for (int j = 0; j < size1; j++) {
+            if (arr2[i] == arr1[j]) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            differentarr[differentcount] = arr2[i];
             differentcount++;
         }
     }
