@@ -36,6 +36,5 @@ int main() {
     if (secondLargest != -1) {
         cout << "The second largest element is: " << secondLargest << endl;
     }
-
     return 0;
 }
