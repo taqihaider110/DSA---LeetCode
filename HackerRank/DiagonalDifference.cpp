@@ -1,5 +1,4 @@
-//DiagonalDifference in C++ - 
-// Hacker Rank Solution
+//DiagonalDifference in C++ - Hacker Rank Solution
 #include <bits/stdc++.h>
 using namespace std;
 string ltrim(const string &);

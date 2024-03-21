@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Problem Solving",
-      "program": "f:/Problem Solving/build/Debug/outDebug",
+      "cwd": "d:/Problem Solving/Binary Search/Tree",
+      "program": "d:/Problem Solving/Binary Search/Tree/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
