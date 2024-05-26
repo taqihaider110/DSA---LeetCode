@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+
 class Solution:
     def checkRecord(self, n: int) -> int:
         MOD = 10**9 + 7
