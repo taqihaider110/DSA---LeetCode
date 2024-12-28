@@ -24,9 +24,33 @@ The repository is organized as follows:
     ├── LinkedList/
     ├── Stack/
     ├── Queue/
-    ├── Tree/
+    ├── Trees/
     ├── Graph/
     ├── DynamicProgramming/
+    ├── BackTracking/
+    ├── BinarySearch/
+    ├── BinarySearchTree/
+    ├── BinaryTree/
+    ├── Bit Manipulation/
+    ├── BFS/
+    ├── Counting/
+    ├── DFS/
+    ├── Divide and Conquer/
+    ├── Greedy/
+    ├── HackerRank/
+    ├── Hash Table/
+    ├── Heap(Priority Table)/
+    ├── LinkedList/
+    ├── Maths-Geometry/
+    ├── Matrix/
+    ├── Memoization/
+    ├── Prefix Sum/
+    ├── Recursion/
+    ├── Sliding Window/
+    ├── Sorting/
+    ├── SQL50/
+    ├── Strings/
+    ├── Two Pointers/     
     └── README.md
 ```
 
