@@ -3,7 +3,6 @@ class Solution:
         max_area = 0
         left = 0
         right = len(heights)-1
-        print(right)
 
         while(left < right):
             container_height = min(heights[left], heights[right])
